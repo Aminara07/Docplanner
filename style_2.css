@@ -1,0 +1,619 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
+/*navigation bar start*/
+}
+li a {
+   font-weight: 400;
+   font-size: 14px;
+   color: #b3b3b3;
+   text-decoration: none;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 11%;
+    
+}
+.logo{
+    cursor: pointer;
+    width: 265px;
+    margin-left: 76px;
+    margin-top: 0px;
+    
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin-right: 15px;
+    margin-top: 9px;
+    margin-left: -30px;
+}
+.nav_links li {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li :hover{
+    color: #16b49f;
+}
+.nav_links{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*navigation bar end*/
+
+/*Introduction start*/
+.intro_logo{
+    width: 40px;
+    margin-left: 695px;
+    margin-top: 40px;
+}
+.Title{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #16b49f;
+    margin-left: 310px;
+    margin-top: 40px;
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    margin-left: 240px;
+    margin-top: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color:#747474;
+}
+.second_paragraph{
+    margin-left: 20px;
+    line-height: 28px;
+}
+.first_paragraph{
+    line-height: 28px;
+    margin-left: 0px;
+}
+/*Introduction end*/
+
+/*Text boxes start*/
+
+.text_boxes{
+    margin: 0;
+    padding: 0;
+}
+.boxes{
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    margin: 250px auto;
+}
+.boxes .box{
+    position: relative;
+    width: calc(350px - 30px);
+    height:calc(390px - 30px) ;
+    background-color: black;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.boxes .box .icon_1{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 8%;
+    height: 8%;
+    background-color: #00ccb2;
+}
+#box_1{
+    background-color: #00ccb2;
+}
+#box_2{
+    background-color: #3d82df;
+}
+#box_3{
+background-color: #1a2834;
+}
+/*Box 1 start*/
+.p_box_1{
+    font-size: 26px;
+    color: #ffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 60px;
+    margin-left: 30px;
+    }
+.d_box_1{
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffff;
+    margin-top: -35px;
+    margin-left: 10px;
+    }
+
+    .select_1{
+        color: #ffff;
+        font-size: 20px;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-left: 30px;
+        margin-top: 20px;
+   }
+    #select__1 {
+       background-color: #00ccb2;
+       border: #00ccb2;
+       }
+     /*Box 1 end*/
+
+    /*Box 2 start*/
+    .boxes .box .icon_2{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 8%;
+        height: 8%;
+        }
+    .p_box_2{
+        font-size: 26px;
+        color: #ffff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 60px;
+        margin-left: 30px;
+        }
+    .d_box_2{
+        padding: 20px;
+        font-size: 24px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffff;
+        margin-top: 0px;
+        margin-left: 10px;
+        }
+    .select_2{
+        color: #ffff;
+        font-size: 20px;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-left: 30px;
+        margin-top: 50px;
+        }
+    #select__2 {
+        background-color: #3d82df;
+        border: #3d82df;
+        }
+            /*Box 2 end*/
+                        
+            /*Box 3 start*/
+    .boxes .box .icon_3{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 8%;
+        height: 8%;
+        }
+    .p_box_3{
+        font-size: 26px;
+        color: #ffff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 60px;
+        margin-left: 30px;
+        }
+                                .d_box_3{
+                                    padding: 20px;
+                                    font-size: 24px;
+                                    font-family: 'Courier New', Courier, monospace;
+                                    color: #ffff;
+                                    margin-top: -35px;
+                                    margin-left: 10px;
+                                    }
+                                    .select_3{
+                                        color: #ffff;
+                                        font-size: 20px;
+                                        text-decoration: underline;
+                                        cursor: pointer;
+                                        margin-left: 30px;
+                                        margin-top: -30px;
+                                        }
+                                        #select__3 {
+                                            background-color: #1a2834;
+                                            border: #1a2834;}
+                                            
+                                            .select_30{
+                                                color: #ffff;
+                                                font-size: 20px;
+                                                text-decoration: underline;
+                                                cursor: pointer;
+                                                margin-left: 30px;
+                                                margin-top: 15px;
+                                                }
+
+                                                #select__30 {
+                                                    background-color: #1a2834;
+                                                    border: #1a2834;}
+                                                    /*Box 3 end*/
+                                                    .boxes{
+                                                        margin-top: 74px;
+                                                        margin-left: 212px;
+                                                    }
+                                                    /*Boxes end*/
+
+                                                    /*Logos start*/
+
+                                                    .text_container{
+                                                        width: 90%;
+                                                        display: flex;
+                                                        font-family: 'Courier New', Courier, monospace;
+                                                        font-size: 30px;
+                                                        color:#03b29c;
+                                                    }
+                                                    .global_company{
+                                                        margin-top: 40px;
+                                                        margin-left: 30px;
+                                                    }
+                                                    .lien_logo_1{
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        align-items: center;
+                                                        padding: 15px 11%;    
+                                                        margin-left: -100px;
+                                                        margin-right: 100px;
+                                                        margin-top: 25px;
+                                                        list-style: none;
+                                                        color: #747474;
+                                                    }
+                                                    .logo_1{
+                                                        block-size: 20px;
+                                                        
+                                                    }
+                                                    .logo_2{
+                                                        block-size: 20px;
+                                                    }
+                                                    .logo_3{
+                                                        block-size: 20px;
+                                                    }
+                                                    .logo_4{
+                                                        block-size: 20px;
+                                                        margin-left: -30px;
+                                                    }
+                                                    .lien_logo_2{
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        align-items: center;
+                                                        padding: 15px 11%;    
+                                                        margin-left: -100px;
+                                                        margin-right: 100px;
+                                                        margin-top: -10px;
+                                                        list-style: none;
+                                                    }
+                                                    .logo_5{
+                                                        block-size: 20px;
+                                                    }
+                                                    .logo_6{
+                                                        block-size: -100px;
+                                                    }
+                                                    .logo_7{
+                                                        margin-left: 30px;
+                                                    }
+                                                    .logo_8{
+                                                        margin-left: 30px;
+                                                    }
+                                                    .logo_9{
+                                                        block-size: 35px;
+                                                        margin-left: 40px;
+                                                    }
+                                                    ul li svg{
+                                                        color: #03b29c;
+                                                    }
+                                                  /*Logos end*/
+
+                                                  /*achievements start*/
+                                                  .banner{
+                                                    position: relative;
+                                                    width: 1485px;
+                                                    height: 650px;
+                                                    background-color: #dbf6f7;
+                                                    margin-top: 40px;
+                                                    margin-left: -250px;
+                                                }
+                                                .banner_ul_2{
+                                                    list-style: none;
+                                                    margin-left: 210px;
+                                                    color: #777777;
+                                                    font-size: 14px;
+                                                }
+                                                /*Card 2 start*/
+                                                #card_2{
+                                                    margin-left: 50px;
+                                                    height: 270px;
+                                                    width: 240px;
+                                                    margin-top: -490px;
+                                                    border: none;
+                                                    box-shadow: black;
+                                                    margin-left: 800px;
+                                                }
+                                                .flag{
+                                                    width: 40px;
+                                                    margin-left: 100px;
+                                                    margin-top: 30px;
+                                                }
+                                                .card_2_p{
+                                                    font-size: 23px;
+                                                    font-family: 'Courier New', Courier, monospace;
+                                                    margin-left: 35px;
+                                                    margin-top: 10px;
+                                                    color: #03b29c;
+                                                }
+                                                .card_2_d{
+                                                    font-size: 12px;
+                                                    color: #777777;
+                                                    margin-left: 20px;
+                                                }
+                                                /*Card 2 end*/
+
+
+                                               
+                                               /*Card 3 start*/
+                                                #card_3{
+                                                    margin-left: 50px;
+                                                    height: 270px;
+                                                    width: 240px;
+                                                    margin-top: 20px;
+                                                    border: none;
+                                                    box-shadow: black;
+                                                    margin-left: 800px;
+                                                }
+                                                .people{
+                                                    width: 40px;
+                                                    margin-left: 100px;
+                                                    margin-top: 60px;
+                                                }
+                                                .card_3_p{
+                                                    font-size: 23px;
+                                                    font-family: 'Courier New', Courier, monospace;
+                                                    margin-left: 50px;
+                                                    margin-top: 10px;
+                                                    color: #03b29c;
+                                                }
+                                                .card_3_d{
+                                                    font-size: 12px;
+                                                    color: #777777;
+                                                    margin-left: 30px;
+                                                }
+                                                /*Card 3 end*/
+
+
+                                                 /*Card 4 end*/
+                                                #card_4{
+                                                    margin-left: 50px;
+                                                    height: 270px;
+                                                    width: 240px;
+                                                    margin-top: -595px;
+                                                    border: none;
+                                                    box-shadow: black;
+                                                    margin-left: 1060px; 
+                                                }
+                                                .calendar{
+                                                    width: 40px;
+                                                    margin-left: 100px;
+                                                    margin-top: 60px;
+                                                }
+                                                .card_4_p{
+                                                    font-size: 23px;
+                                                    font-family: 'Courier New', Courier, monospace;
+                                                    margin-left: 50px;
+                                                    margin-top: 10px;
+                                                    color: #03b29c;
+                                                }
+                                                .card_4_d{
+                                                    font-size: 12px;
+                                                    color: #777777;
+                                                    margin-left: 60px;
+                                                }
+                                                 /*Card 4 end*/
+                                                
+                                                /*Card 5 start*/
+                                                 #card_5{
+                                                    margin-left: 50px;
+                                                    height: 270px;
+                                                    width: 240px;
+                                                    margin-top: 20px;
+                                                    border: none;
+                                                    box-shadow: black;
+                                                    margin-left: 1060px;
+                                                }
+                                                
+                                                /*Card 5 end*/
+                                                .people_2{
+                                                    width: 40px;
+                                                    margin-left: 100px;
+                                                    margin-top: 60px;
+                                                }
+                                                .card_5_p{
+                                                    font-size: 23px;
+                                                    font-family: 'Courier New', Courier, monospace;
+                                                    margin-left: 25px;
+                                                    margin-top: 10px;
+                                                    color: #03b29c;
+                                                }
+                                                .card_5_d{
+                                                    font-size: 12px;
+                                                    color: #777777;
+                                                    margin-left: 60px;
+                                                }
+
+                                                
+                                                
+                                                /*achievements end*/
+
+                                                /*image text start*/ 
+                                                .container_2{
+                                                    width: 50%;
+                                                    display: flex;
+                                                    font-family: 'Courier New', Courier, monospace;
+                                                    font-size: 30px;
+                                                    color:#03b29c;
+                                                    margin-top: 100px;
+                                                    margin-left: 250px;
+                                                }
+                                                .second{
+                                                    list-style: none;
+                                                }
+                                                .part_two{
+                                                    margin-left: 50px;
+                                                
+                                                }
+                                                .container_20{
+                                                    width: 50%;
+                                                    display: flex;
+                                                    margin-left: 250px;
+                                                    margin-top: 3px;
+                                                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                                    font-size: 14px;
+                                                    color:#747474;
+                                                }
+                                                /*Image text end*/
+
+                                                /*country Images start*/ 
+                                                .container_3{
+                                                    margin-top: 60px;
+                                                    margin-left: 30px;
+                                                }
+                                                .card{
+                                                    width: 300px
+                                                    
+                                                }
+                                                #Button_1{
+                                                    width: 110px;
+                                                    font-size: 13px;
+                                                    background-color: #3d82df;
+                                                    margin-left: 70px;
+                                                    margin-top: 15px;
+                                                }
+                                                .card-title {
+                                                    color: #777777;
+                                                    margin-left: -30px;
+                                                    margin-top: 19px;
+                                                }
+                                                .block{
+                                                   display: flex;
+                                                   list-style: none;
+                                                }
+                                                .card{
+                                                    cursor: pointer;
+                                                     }
+                                                .all_cards{
+                                                    display: flex;
+                                                    list-style: none;
+                                                 }
+                                                 .card_two{
+                                                    margin-left: 50px;
+                                                 }
+                                                 .card_three{
+                                                    margin-left: 50px;
+                                                 }
+                                                 .all_cards_2{
+                                                    display: flex;
+                                                    list-style: none;
+                                                 }
+                                                /*country images end*/
+
+                                                /*Join star*/
+                                                .join_p{
+                                                    font-size: 30px;
+                                                    font-family: 'Courier New', Courier, monospace;
+                                                    color: #3c3c3c;
+                                                    margin-top: 80px;
+                                                    margin-left: 200px;
+                                                 }
+                                                 
+                                                 #Button_2{
+                                                 background-color: #3d82df;
+                                                 margin-left: 370px;
+                                                 margin-top: 7px;
+                                              }
+
+                                              /*Join end*/
+
+                                              /*Footer start*/
+                                              footer{
+                                                margin-top: 70px;
+                                                margin-left: 40px;
+                                            }
+                                              .footer_ul{
+                                                display: flex;
+                                                align-items: center;
+                                                list-style: none;
+                                                font-size: 11px;
+                                                margin-left: 30px;
+                                            }
+                                            .country{
+                                               margin-left: 6px;
+                                            }
+                                            .colors{
+                                                color: #3d82df;
+                                                display: flex;
+                                            }
+                                            .special{
+                                                list-style: none;
+                                            }
+                                            .country{
+                                                cursor: pointer;
+                                            }
+                                            .line{
+                                                width: 2155px;
+                                                margin-left: -1000px;
+                                            }
+                                            .text_footer{
+                                               color: #b3b3b3;
+                                            }
+                                            .all_specials{
+                                                margin-top: 40px;
+                                            } 
+                                            .second_p_footer{
+                                                list-style: none;
+                                                font-size: 11px;
+                                                color: #b3b3b3;   
+                                            } 
+                                            .third_p_footer{
+                                            margin-left: 310px;  
+                                             } 
+                                             .banner_ul {
+                                                list-style: none;
+                                                margin-left: 50px;
+                                                padding-top: 70px;
+                                                padding-left: 200px;
+                                                font-size: 31.5px;
+                                                color:#03b29c;
+                                                font-family: 'Courier New', Courier, monospace;
+                                            } 
+                                            
+                                            .big_logo{
+                                                width: 300px;
+                                                margin-left: 270px;
+                                                padding-top: 20px;
+                                            } 
+                                        /*Footer end*/
+        
+
+                                              
+                                              
+
+
+                                                
+
+                                                    
+                                                    
+
+
+
+
+
+
+        
+            
+    
